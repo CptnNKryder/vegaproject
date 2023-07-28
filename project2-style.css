@@ -1,0 +1,340 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+  background-color: #000;
+}
+/*header*/
+
+.parent-box
+{
+    background-color: #0a0909;
+    height: 100px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.site-logo
+{
+    height: 80px;
+    width: 100px;
+    padding: 20px;
+}
+.logo
+{
+    background-image: url(IMG/vega-img/vega-logo.png);
+    height: 72px;
+    width: 400px;
+    background-size:cover;
+}
+
+/*navbar*/
+
+.navbar
+{
+    height: 45px;
+    background-color: #282a2c;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.nav-ops
+{
+    display: flex;
+}
+.ops 
+{
+    width: 60%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.ops a
+{
+    text-decoration: none;
+    color:white ;
+    font-size: larger;
+    text-transform: uppercase;
+    font-family:cambria;
+    font-weight: 400;
+}
+i
+{
+    color: white;
+}
+.web-icon,.audio-icon,.genere-icon
+{
+    display: flex;
+    align-items: center;
+}
+.genere-icon i
+{
+    color: rgb(20, 247, 255);
+}
+
+.search-input
+{
+    width: 90px;
+    font-size: 1.15rem;
+    border: none;
+    text-align: center;
+    background-color:#171818d7 ;
+    font-family:serif;
+    margin-left: 315px;
+}
+.search-input:hover
+{
+    width:300px ;
+    transition-delay: 5ms;
+    transition-timing-function:linear;
+    transition-duration: 1s;
+}
+.search-icon
+{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    background-color: #171818d7 ;
+    align-items: center;
+    font-size: 0.85rem;
+    box-shadow: 0 5px 14px -7px #fff!important;
+}
+
+/*center*/
+
+.center 
+{
+    height: 90px;
+    background-color:#171818d7;   
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.msg-area
+{
+    height: 50px;
+    border: 2.5px solid rgba(255,255,255,.1);
+}
+.msg
+{
+    height: 25px;
+    margin: 15px;
+    color: white;
+}
+.msg-input
+{
+    width: 100%;
+    font-size: large;
+    background-color:#171818d7;   
+    border: none;
+    font-weight: 800;
+}
+
+/*choices*/
+
+.choices
+{
+    height: 52px;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color:#171818d7; 
+    display: flex;
+    justify-content: center;
+}
+.button 
+{
+    width: 180px;
+    border-radius: 15%;
+    height: 50px;;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 32px -10px #fe0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abutton
+{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.bolly
+{
+    background-color: #44b81a;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.holly
+{
+    background-color: #fe0000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.telegram
+{
+    background-color:#009DE1;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.download
+{
+    background-color: #DF9A17;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/*prefrences*/
+
+.prefrence1
+{
+    height: 45px;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color:#171818d7; 
+    display: flex;
+    align-items: center;   
+}
+.box
+{
+    background-color: #df133c;
+    text-transform: uppercase;
+    border-radius: 18%;
+    width: 80px;
+    height: 50x;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    box-shadow: 0 0 32px -10px #fe0000;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.abox 
+{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.phead
+{
+    color: #fff;
+}
+.amazonprime
+{
+    width: 110px;
+}
+
+.prefrence2
+{
+    height: 40px;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color:#171818d7; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.kdrama,.others
+{
+    width: 150px;
+}
+
+/* content area*/
+
+.contentbox
+{
+    height: 500px;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color:#171818d7;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.dibba
+{
+    background:linear-gradient(to right,#ca4747,#f4c922);
+    height: 280px;
+    width: 180px;
+    padding: 6px;
+    margin-left: 20px;
+    margin-top: 55px;
+   
+
+
+}
+.dibba-img
+{
+    height:280px;
+    background-size: cover;
+}
+.datep i,p
+{
+    color: #948a8a!important;
+    text-align: center;
+}
+.dibba-a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.dibba-a:hover
+{
+    color: #fe0000;
+}
+
+/* next buttons */
+
+.next
+{
+    height: 90px;
+    margin-left: 95px;
+    margin-right: 95px;
+    background-color: #171818d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nxtbox
+{
+    height: 40px;
+    width: 40px;
+    background-color: #171818d7;
+    border:1px solid rgba(255,255,255,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+}
+.nxt1
+{
+    font-size:large;
+    font-weight: 500;
+    background-color: #c00;
+}
+.nxt4
+{
+    background-color: transparent;
+    border: transparent;
+}
+.nxt2:hover,.nxt3:hover,.nxt5:hover
+{
+   background-color: #c00;
+}
